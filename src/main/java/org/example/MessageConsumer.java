@@ -1,5 +1,5 @@
 package org.example;
 
-public interface MessageService {
+public interface MessageConsumer {
     String getMessage();
 }
