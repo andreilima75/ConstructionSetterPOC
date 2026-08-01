@@ -11,7 +11,7 @@ public class App {
             System.out.println("=== Constructor Injection ===");
             ConstructorInjectedClient constructorClient =
                     context.getBean(ConstructorInjectedClient.class);
-            constructorClient.process();
+            //constructorClient.process();
 
             System.out.println("\n=== Setter Injection ===");
             SetterInjectedClient setterClient =
