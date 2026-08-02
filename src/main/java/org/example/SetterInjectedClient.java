@@ -1,11 +1,9 @@
 package org.example;
 
-
 public class SetterInjectedClient {
 
     private MessageService messageService;
 
-    // Setter Injection
     public void setMessageService(MessageService messageService) {
         this.messageService = messageService;
     }
